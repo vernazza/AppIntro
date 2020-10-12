@@ -1,6 +1,7 @@
 # AppIntro
 
 [![](https://jitpack.io/v/AppIntro/AppIntro.svg)](https://jitpack.io/#AppIntro/appintro) [![Pre Merge Checks](https://github.com/AppIntro/AppIntro/workflows/Pre%20Merge%20Checks/badge.svg)](https://github.com/AppIntro/AppIntro/actions?query=workflow%3A%22Pre+Merge+Checks%22) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AppIntro-green.svg?style=flat)](https://android-arsenal.com/details/1/1939) [![Join the chat at https://gitter.im/AppIntro/Lobby](https://badges.gitter.im/AppIntro/Lobby.svg)](https://gitter.im/AppIntro/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvernazza%2FAppIntro.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvernazza%2FAppIntro?ref=badge_shield)
 
 AppIntro is an Android Library that helps you build a **cool carousel intro** for your App. AppIntro has support for **requesting permissions** and helps you create a great onboarding experience in just a couple of minutes.
 
@@ -39,6 +40,9 @@ AppIntro is an Android Library that helps you build a **cool carousel intro** fo
   * [License <g-emoji class="g-emoji" alias="page_facing_up" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png">📄</g-emoji>](#license-)
   * [Apps using AppIntro <g-emoji class="g-emoji" alias="iphone" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f1.png">📱</g-emoji>](#apps-using-appintro-)
 
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvernazza%2FAppIntro.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvernazza%2FAppIntro?ref=badge_large)
 
 ## Getting Started 👣
 
