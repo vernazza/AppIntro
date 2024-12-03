@@ -1,7 +1,6 @@
 package com.github.appintro
 
 import android.graphics.drawable.Drawable
-import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
@@ -10,7 +9,6 @@ import androidx.annotation.DrawableRes
 import androidx.constraintlayout.widget.ConstraintLayout
 
 abstract class AppIntro2 : AppIntroBase() {
-
     override val layoutId = R.layout.appintro_intro_layout2
 
     @DrawableRes
@@ -26,9 +24,7 @@ abstract class AppIntro2 : AppIntroBase() {
         set(value) {
             field = value
             if (field != null) {
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                    backgroundFrame.background = field
-                }
+                backgroundFrame.background = field
             }
         }
 
@@ -50,7 +46,9 @@ abstract class AppIntro2 : AppIntroBase() {
      * Override viewpager bar color
      * @param color your color resource
      */
-    fun setBarColor(@ColorInt color: Int) {
+    fun setBarColor(
+        @ColorInt color: Int,
+    ) {
         bottomBar.setBackgroundColor(color)
     }
 
@@ -67,7 +65,9 @@ abstract class AppIntro2 : AppIntroBase() {
      *
      * @param color your color
      */
-    fun setNextArrowColor(@ColorInt color: Int) {
+    fun setNextArrowColor(
+        @ColorInt color: Int,
+    ) {
         val nextButton = findViewById<ImageButton>(R.id.next)
         nextButton.setColorFilter(color)
     }
@@ -77,7 +77,9 @@ abstract class AppIntro2 : AppIntroBase() {
      *
      * @param colorSkipButton your color resource
      */
-    fun setSkipArrowColor(@ColorInt colorSkipButton: Int) {
+    fun setSkipArrowColor(
+        @ColorInt colorSkipButton: Int,
+    ) {
         val skip = findViewById<ImageButton>(R.id.skip)
         skip.setColorFilter(colorSkipButton)
     }
